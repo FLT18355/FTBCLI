@@ -1,6 +1,6 @@
 [project]
 name = "ftbcli"
-version = "0.1.0"
+version = "0.1.1"
 description = "FLT18355 的工具箱命令行（FTB CLI）"
 readme = "README.md"
 authors = [
