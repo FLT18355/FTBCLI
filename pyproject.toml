@@ -1,0 +1,23 @@
+[project]
+name = "ftbcli"
+version = "0.1.0"
+description = "FLT18355 的工具箱命令行（FTB CLI）"
+readme = "README.md"
+authors = [
+    { name = "FLT18355", email = "cm18750724707a@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "typer>=0.27.3",
+]
+
+[project.scripts]
+ftb = "ftbcli.cli:main"
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
