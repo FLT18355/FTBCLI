@@ -17,6 +17,8 @@ TOOLS: dict[str, str] = {
     "arch": "arch",
     "hash": "hash",
     "dup": "dup",
+    "media": "media",
+    "img": "img",
 }
 
 app = typer.Typer(
